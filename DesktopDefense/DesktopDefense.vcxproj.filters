@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{385e4bc1-46a6-445f-aca7-35ecee29e5d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Structs">
+      <UniqueIdentifier>{c8c54195-1f79-4a4f-8e53-23a3609363ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{8cf69100-2ef4-4fe7-91f9-f8dbddfdc94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Structs">
+      <UniqueIdentifier>{c2d87e3d-06cd-4200-91e5-43fa1e3b37e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{427a4c84-a848-49d6-a19f-f750e31561d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{2f1d0072-af25-443f-a233-81f46e7f2235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Components">
+      <UniqueIdentifier>{47d2a7e4-b72a-4730-8041-eaadd62118c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Components">
+      <UniqueIdentifier>{3fd29f32-c6fb-41a1-9b60-7c0203a558cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Core">
+      <UniqueIdentifier>{6c4bd38c-837a-412c-9914-aa0691cb5d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Core">
+      <UniqueIdentifier>{ba4ce72c-53e0-4e8a-9cf7-6038eaa89bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Components\Collider">
+      <UniqueIdentifier>{ce55b49d-bf97-4008-9eac-14b6ecc31844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Components\Collider">
+      <UniqueIdentifier>{567491d6-1131-4f02-9a17-ea4d201a96da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Components\Collider\Core">
+      <UniqueIdentifier>{dfc329d4-6a15-4121-adc0-e13e8aa775f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Components\Collider\Core">
+      <UniqueIdentifier>{7cd8e768-b661-43f1-b506-e701726ab799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WeaponList">
+      <UniqueIdentifier>{3520c04e-9ccf-47cf-8cb7-ac9da27674b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WeaponList">
+      <UniqueIdentifier>{bac8a947-8d44-4621-8b6f-ae299d74eda7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DesktopDefense.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\Engine\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="DesktopDefenseGameInstance.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentBase.h">
+      <Filter>Header Files\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInstanceBase.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenHelper.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Header Files\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Engine\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Header Files\Engine\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderBase.h">
+      <Filter>Header Files\Engine\Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Header Files\Engine\Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Header Files\Engine\Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintShapeOption.h">
+      <Filter>Header Files\Engine\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonInstanceBase.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Engine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\Engine\Components\Collider\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Hammer.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="HandGun.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGun.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClip.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEventListenerBase.h">
+      <Filter>Header Files\Engine\Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorCollisionEventListener.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="HammerCollisionEventListener.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="HandGunCollisionEventListener.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserCollisionEventListener.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGunCollisionEventListener.h">
+      <Filter>Header Files\WeaponList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\Engine\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInstanceBase.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DesktopDefenseGameInstance.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentBase.cpp">
+      <Filter>Source Files\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenHelper.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Engine\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>Source Files\Engine\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Source Files\Engine\Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderBase.cpp">
+      <Filter>Source Files\Engine\Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Source Files\Engine\Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Miner.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonInstanceBase.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Engine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\Engine\Components\Collider\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Hammer.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="HandGun.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGun.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEventListenerBase.cpp">
+      <Filter>Source Files\Engine\Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorCollisionEventListener.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="HammerCollisionEventListener.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="HandGunCollisionEventListener.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserCollisionEventListener.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGunCollisionEventListener.cpp">
+      <Filter>Source Files\WeaponList</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
